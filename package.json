@@ -1,6 +1,6 @@
 {
   "name": "myschoolportalautologinscript",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A mini script to auto-login to the auth portal of my school.",
   "main": "index.js",
   "scripts": {

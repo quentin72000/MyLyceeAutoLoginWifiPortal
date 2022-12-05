@@ -4,7 +4,10 @@
   "description": "A mini script to auto-login to the auth portal of my school.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "echo Starting build && rimraf build",
+    "build": "nexe index.js --build -o build/MySchoolPortalAutoLoginScript.exe",
+    "postbuild": "xcopy \"node_modules/puppeteer\" \"build/node_modules/puppeteer\" /e /i /h && xcopy \"node_modules/puppeteer-core\" \"build/node_modules/puppeteer-core\" /e /i /h && xcopy \"package.json\" \"build\" && echo Done"
   },
   "keywords": [],
   "author": "quentin72000",
@@ -13,5 +16,8 @@
   "dependencies": {
     "dialog": "^0.3.1",
     "puppeteer": "^18.0.5"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
   }
 }

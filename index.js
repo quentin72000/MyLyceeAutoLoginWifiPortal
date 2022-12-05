@@ -14,7 +14,7 @@ if(config.randomIdentifier == true){
     email: randomString(12) + "@gmail.com"
   }
 }
-console.log(config.identifier);
+// console.log(config.identifier);
 
 
 

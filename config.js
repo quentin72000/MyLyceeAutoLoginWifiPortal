@@ -9,6 +9,6 @@ module.exports = {
         email: ""
     },
     connectURL: "http://www.msftconnecttest.com/",
-    withoutScreen: false
+    withoutScreen: false // Si true, le navigateur virtuel ne s'affichera pas et tout se ferra en arriere plan.
 
 }

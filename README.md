@@ -1,3 +1,7 @@
+# ⚠️ Abandoned project ⚠️
+## As we find out that there was another more pratical method, this project is useless.
+## Feel free to create a fork if you need it.
+
 # MySchoolPortalAutoLoginScript
 This project auto-login into "invite" mode of my school captive login portal.
 
